@@ -74,6 +74,6 @@ st.table(features_df)
 
 if st.button('Predict'):
     
-    prediction = predict_rating(model, features_df)
+    prediction = predict_use(model, features_df)
     
     st.write('Based on input data, the predicted Uberoso Use is '+ prediction)
